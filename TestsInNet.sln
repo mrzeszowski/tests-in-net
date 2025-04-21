@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reservation-management", "reservation-management", "{6E2A1336-8CFA-48FD-8A03-90F4B33D932C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "non-testable-code", "non-testable-code", "{652528C2-F717-46E5-BDF6-999AFA5C7C56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50CB52FF-2726-4EAA-A798-6C6A85A9C298}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F411F756-82E0-407B-9C80-D7DB343BDF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationManagement.Api", "reservation-management\src\ReservationManagement.Api\ReservationManagement.Api.csproj", "{5D313C47-3F35-42EA-B1EF-B529BEEC5D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D313C47-3F35-42EA-B1EF-B529BEEC5D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D313C47-3F35-42EA-B1EF-B529BEEC5D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D313C47-3F35-42EA-B1EF-B529BEEC5D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D313C47-3F35-42EA-B1EF-B529BEEC5D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50CB52FF-2726-4EAA-A798-6C6A85A9C298} = {6E2A1336-8CFA-48FD-8A03-90F4B33D932C}
+		{F411F756-82E0-407B-9C80-D7DB343BDF9E} = {6E2A1336-8CFA-48FD-8A03-90F4B33D932C}
+		{5D313C47-3F35-42EA-B1EF-B529BEEC5D4B} = {50CB52FF-2726-4EAA-A798-6C6A85A9C298}
+	EndGlobalSection
+EndGlobal
